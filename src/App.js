@@ -1,9 +1,10 @@
 import React from 'react';
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <h2>This is our first website and it´s really cool!</h2>
+      <h2 className="fluffy-rabbit">This is our first website and it´s really cool!</h2>
     </div>
   );
 }
