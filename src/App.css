@@ -4,3 +4,11 @@
   margin: 10px;
   border: 1px solid violet;
 }
+.input{
+  color: rgb(247, 231, 14);
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid rgb(153, 130, 238);
+  font-size: 18px;
+  border-radius: 5px;
+}
