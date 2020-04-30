@@ -2,6 +2,7 @@ import React from 'react';
 import "./App.css";
 import TodoList from './TodoList';
 import Equipo from './Equipo';
+import LandingPage from './LandingPage';
 
 function App() {
   var language = window.navigator.userLanguage || window.navigator.language;
@@ -16,9 +17,12 @@ function App() {
 
   return (
     <div>
+      <LandingPage></LandingPage>
+      <br></br>
       <TodoList />
       <Equipo greeting={greeting}>
       </Equipo>
+
     </div>
 
 
