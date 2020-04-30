@@ -1,12 +1,16 @@
 import React from 'react';
 import "./App.css";
+import TodoList from './TodoList';
+import Equipo from './Equipo';
 
 function App() {
   return (
     <div>
-      <h2 className="fluffy-rabbit">This is our first website and it´s really cool!</h2>
-      <input className="input" type="text" placeholder="tell me your name" ></input>
+      <TodoList />
+      <Equipo></Equipo>
     </div>
+
+
   );
 }
 
